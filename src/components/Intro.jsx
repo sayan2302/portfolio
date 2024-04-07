@@ -6,7 +6,7 @@ import { FaMedium } from "react-icons/fa6";
 
 const Intro = () => {
   return (
-    <div className='font-Poppins w-full h-[85vh] border border-red-500'>
+    <div className='font-Poppins w-full h-[85vh]  mt-20'>
       {/* top half */}
       <div className='h-2/3 flex'>
         {/* Photo */}
@@ -16,7 +16,7 @@ const Intro = () => {
           {/* description */}
           <div className='h-5/6 w-full p-3 flex flex-col justify-center'>
             <p className='text-5xl font-extrabold font-BioRhyme'>Full Stack Developer</p>
-            <p className='w-5/6 mt-7 text-[#566573] text-lg'>Hi, I'm Sayan Pramanick. A passionate Full-Stack Developer based in Bengaluru, India. </p>
+            <p className='w-5/6 mt-7 text-[#85929E] text-lg'>Hi, I'm Sayan Pramanick. A passionate Full-Stack Developer based in Bengaluru, India. </p>
           </div>
           {/* links */}
           <div className='h-1/6 w-full  flex flex-row-reverse'>
