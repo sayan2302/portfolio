@@ -31,22 +31,22 @@ const Intro = () => {
       {/* bottom half */}
       <div className='h-1/3 flex'>
         {/* <p> skills */}
-        <div className='h-full w-1/6 bg-green-300 flex'>
+        <div className='h-full w-1/6 flex'>
           <p className='m-auto font-BioRhyme text-2xl'>Skills|</p>
         </div>
         {/* skill icons */}
         <div className='h-full w-5/6 flex'>
-          <div className="h-full bg-blue-100 w-1/3 flex flex-col p-5 relative justify-center">
-            <img className='p-3' src="https://skillicons.dev/icons?i=js,ts,python,cpp&theme=light" alt="" />
-            <img className='p-3' src="https://skillicons.dev/icons?i=html,css,sass,redux" alt="" />
+          <div className="h-full w-1/3 flex flex-col p-5 relative justify-center">
+            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=js,ts,python,cpp&theme=light" alt="" />
+            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=html,css,sass,redux" alt="" />
           </div>
-          <div className="h-full bg-blue-200 w-1/3 flex flex-col p-5 relative justify-center">
-            <img className='p-3' src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs" alt="" />
-            <img className='p-3' src="https://skillicons.dev/icons?i=git,gitlab,bitbucket,postman&theme=light" alt="" />
+          <div className="h-full w-1/3 flex flex-col p-5 relative justify-center">
+            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs" alt="" />
+            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=git,gitlab,bitbucket,postman&theme=light" alt="" />
           </div>
-          <div className="h-full bg-blue-300 w-1/3 flex flex-col p-5 relative justify-center">
-            <img className='p-3' src="https://skillicons.dev/icons?i=materialui,tailwind,bootstrap,d3" alt="" />
-            <img className='p-3' src="https://skillicons.dev/icons?i=mysql,sqlite,postgres,aws" alt="" />
+          <div className="h-full w-1/3 flex flex-col p-5 relative justify-center">
+            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=materialui,tailwind,bootstrap,d3" alt="" />
+            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=mysql,sqlite,postgres,aws" alt="" />
           </div>
         </div>
       </div>

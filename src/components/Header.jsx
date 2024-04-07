@@ -9,7 +9,7 @@ const Header = () => {
                 <div className='flex group'>
                     <CgMonday className='text-5xl pb-1 cursor-default' />
                     <span className='font-BioRhyme font-extrabold text-3xl ml-1 pt-1 cursor-default'>Sayan.</span>
-                    <span className='font-BioRhyme font-extrabold Dev text-3xl pt-1 group-hover:text-red-500 group-active:text-black delay-50 cursor-default'>dev</span>
+                    <span className='font-BioRhyme font-extrabold Dev text-3xl pt-1 group-hover:text-red-500 group-active:text-black duration-150 cursor-default'>dev</span>
                 </div>
             </a>
         </div>
