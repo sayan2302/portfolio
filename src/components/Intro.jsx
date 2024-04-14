@@ -6,7 +6,7 @@ import { FaMedium } from "react-icons/fa6";
 
 const Intro = () => {
   return (
-    <div className='font-Poppins w-full h-[85vh]  mt-20'>
+    <div className='font-Poppins w-full h-[85vh]  mt-20 '>
       {/* top half */}
       <div className='h-2/3 flex'>
         {/* Photo */}
@@ -15,8 +15,9 @@ const Intro = () => {
         <div className='h-full w-2/3 '>
           {/* description */}
           <div className='h-5/6 w-full p-3 flex flex-col justify-center'>
-            <p className='text-5xl font-extrabold font-BioRhyme'>Full Stack Developer</p>
-            <p className='w-5/6 mt-7 text-[#85929E] text-lg'>Hi, I'm Sayan Pramanick. A passionate Full-Stack Developer based in Bengaluru, India. </p>
+            <p className='text-7xl font-extrabold font-BioRhyme'>Full Stack</p>
+            <p className='text-6xl font-extrabold font-BioRhyme'>MERN Developer</p>
+            <p className='w-5/6 mt-7 text-[#85929E] text-xl'>Hi, I'm Sayan Pramanick. A passionate Full-Stack Developer based in Bengaluru, India. </p>
           </div>
           {/* links */}
           <div className='h-1/6 w-full  flex flex-row-reverse'>
@@ -29,24 +30,24 @@ const Intro = () => {
       </div>
 
       {/* bottom half */}
-      <div className='h-1/3 flex'>
+      <div className='h-1/3 flex max-h-[250px] justify-center '>
         {/* <p> skills */}
         <div className='h-full w-1/6 flex'>
           <p className='m-auto font-BioRhyme text-2xl'>Skills|</p>
         </div>
         {/* skill icons */}
-        <div className='h-full w-5/6 flex'>
+        <div className='h-full w-5/6 max-w-[850px] flex '>
           <div className="h-full w-1/3 flex flex-col p-5 relative justify-center">
-            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=js,ts,python,cpp&theme=light" alt="" />
-            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=html,css,sass,redux" alt="" />
+            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=js,ts,python,cpp&theme=light" alt="" />
+            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=html,css,sass,redux" alt="" />
           </div>
           <div className="h-full w-1/3 flex flex-col p-5 relative justify-center">
-            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs" alt="" />
-            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=git,gitlab,bitbucket,postman&theme=light" alt="" />
+            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs" alt="" />
+            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=git,gitlab,bitbucket,postman&theme=light" alt="" />
           </div>
           <div className="h-full w-1/3 flex flex-col p-5 relative justify-center">
-            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=materialui,tailwind,bootstrap,d3" alt="" />
-            <img className='p-3 hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=mysql,sqlite,postgres,aws" alt="" />
+            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=materialui,tailwind,bootstrap,d3" alt="" />
+            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=mysql,sqlite,postgres,aws" alt="" />
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ module.exports = {
       fontFamily:{
         'BioRhyme': ["BioRhyme", "serif"],
         'Poppins': ["Poppins", "sans-serif"],
+        'Manrope': ["Manrope", "sans-serif"],
       }
     },
   },
