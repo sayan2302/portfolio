@@ -10,16 +10,16 @@ const Project = () => {
         splitwise: {
             img: ImgSplitwise,
             name: "SPLITWISE",
-            desciption: "Lorem ipsum dolor sit amet consectetur adipisicing elit.In, reprehenderit tempore voluptas aspernatur porro possimusratione sed quaerat neque eaque quo dicta voluptate iste error,dolores ab provident ut. Est.Vero quasi, quibusdam fugit officiis,illum repellat, debitis aperiam sequi accusamus quos modi eaque",
+            desciption: "Lorem ipsum dolor sit amet consectetur adipisicing elit.In, reprehenderit tempore voluptas aspernatur porro possimusratione sed quaerat neque eaque quo dicta voluptate iste error,dolores ab provident ut.",
             skills: ['react','js','css'],
             github: "#project",
             demo: "#project"
         },
-        carry: {
+        carbuddy: {
             img: Carbuddy,
             name: "CAR-BUDDY",
-            desciption: "Lorem ipsum dolor sit amet consectetur adipisicing elit.In, reprehenderit tempore voluptas aspernatur porro possimusratione sed quaerat neque eaque quo dicta voluptate iste error,dolores ab provident ut. Est.Vero quasi, quibusdam fugit officiis,illum repellat, debitis aperiam sequi accusamus quos modi eaque",
-            skills: ['js,css'],
+            desciption: "Lorem ipsum dolor sit amet consectetur adipisicing elit.In, reprehenderit tempore voluptas aspernatur porro possimusratione sed quaerat neque eaque quo dicta voluptate iste error,dolores ab provident ut.",
+            skills: ['js','css'],
             github: "#project",
             demo: "#project"
         }
@@ -33,7 +33,7 @@ const Project = () => {
             {/* Project */}
             {Object.keys(projects).map((project, key) => {
                 return (
-                    <div className={`flex  min-w-full h-[400px] mb-20 hover:bg-gray-50 justify-center rounded-xl duration-150  ${key%2?"flex-row-reverse ":"flex-row"}`}>
+                    <div className={`flex  min-w-full h-[400px] mb-28 hover:bg-gray-50 justify-center rounded-xl duration-150  ${key%2?"flex-row-reverse ":"flex-row"}`}>
                         {/* Project Image */}
                         <div className={`w-7/12 p-2 flex ${key%2?"justify-start":"justify-end"}`}>
                             <img src={projects[project].img} className='rounded-xl h-full object-contain shadow-lg' alt="" />
@@ -46,7 +46,7 @@ const Project = () => {
                             </div>
                             {/* Project Description */}
                             <div className="h-3/6 ">
-                                <p className='text-gray-500 text-justify p-2'>{projects[project].desciption}</p>
+                                <p className={`text-gray-500 text-justify ${key%2?"pr-12 pl-2":"pl-12 pr-2"}`}>{projects[project].desciption}</p>
                             </div>
                             {/* Project Skills */}
                             <div className="h-1/6  flex items-center justify-center">

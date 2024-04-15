@@ -3,6 +3,8 @@ import Intro from "./components/Intro";
 import About from "./components/About";
 import "./app.css";
 import Project from "./components/Project";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,10 +17,14 @@ function App() {
             <About />
           </section>
           <section id="project">
-            <Project/>
+            <Project />
+          </section>
+          <section id="contact">
+            <Contact />
           </section>
         </div>
       </div>
+        <Footer/>
     </section>
   );
 }
