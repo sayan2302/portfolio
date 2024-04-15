@@ -8,8 +8,8 @@ const About = () => {
   return (
     <div className='font-Poppins w-full h-[68vh] mt-[15vh] mb-8  '>
       <p className=' font-extrabold text-[#34b5ff]'>CONTACT</p>
-      <p className=' text-gray-600 font-bold text-3xl mt-10'>Don't be shy! Hit me up! 👇</p>
-      <div className='flex justify-around gap-20 mt-20'>
+      <p className=' text-gray-600 font-bold text-4xl mt-16'>Don't be shy! Hit me up! 👇</p>
+      <div className='flex justify-around gap-20 mt-28'>
         {/* Location */}
         <div className="w-1/3 justify-center flex items-center hover:bg-gray-50 rounded-xl shadow-md">
           <FaMapLocationDot className='text-4xl text-[#4f9efc]' />

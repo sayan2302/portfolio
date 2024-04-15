@@ -7,3 +7,6 @@
     border-radius: 10px;
     border: 3.7px white solid;
 }
+html{
+    scroll-behavior: smooth;
+}

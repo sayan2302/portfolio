@@ -14,16 +14,18 @@ const Intro = () => {
         {/* description container */}
         <div className='h-full w-2/3 '>
           {/* description */}
-          <div className='h-5/6 w-full p-3 flex flex-col justify-center'>
-            <p className='text-7xl font-extrabold font-BioRhyme'>Full Stack</p>
-            <p className='text-6xl font-extrabold font-BioRhyme'>MERN Developer</p>
+          <div className='h-5/6  w-full p-3 flex flex-col justify-center cursor-default'>
+            <div className='group'>
+              <p className='text-7xl font-extrabold font-Poppins'>Full Stack</p>
+              <div><span className='text-6xl group-hover:text-red-400 duration-200 font-extrabold font-Poppins'>MERN </span><span className='text-6xl font-extrabold font-Poppins'>Developer </span></div>
+            </div>
             <p className='w-5/6 mt-7 text-[#85929E] text-xl'>Hi, I'm Sayan Pramanick. A passionate Full-Stack Developer based in Bengaluru, India. </p>
           </div>
           {/* links */}
           <div className='h-1/6 w-full  flex flex-row-reverse'>
-            <LiaHackerrank className='stroke-1 text-3xl m-2 hover:text-[#08eb69]' />
+            <LiaHackerrank className='stroke-1 text-3xl m-2 hover:text-[#10aa50]' />
             <FaMedium className='text-3xl m-2 hover:text-[#D35400]' />
-            <TbBrandGithub className='text-3xl m-2 hover:text-[#8E44AD]' />
+            <TbBrandGithub className='text-3xl m-2 hover:text-[#9333ea]' />
             <TbBrandLinkedin className='text-3xl m-2 hover:text-[#0a66c2]' />
           </div>
         </div>
@@ -33,7 +35,7 @@ const Intro = () => {
       <div className='h-1/3 flex max-h-[250px] justify-center '>
         {/* <p> skills */}
         <div className='h-full w-1/6 flex'>
-          <p className='m-auto font-BioRhyme text-2xl'>Skills|</p>
+          <p className='m-auto font-Poppins text-2xl'>Skills|</p>
         </div>
         {/* skill icons */}
         <div className='h-full w-5/6 max-w-[850px] flex '>

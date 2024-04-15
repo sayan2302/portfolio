@@ -28,7 +28,7 @@ const Project = () => {
     return (
         <div className='font-Poppins w-full pt-20 '>
             <p className=' font-extrabold text-[#34b5ff]'>PROJECTS</p>
-            <p className=' font-extrabold text-gray-600 font-Manrope mb-10'>Each project is a unique piece of development</p>
+            <p className=' font-semibold text-gray-600 font-Poppins mb-10'>Each project is a unique piece of development</p>
 
             {/* Project */}
             {Object.keys(projects).map((project, key) => {
