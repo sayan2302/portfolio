@@ -3,6 +3,7 @@ import { TbBrandLinkedin } from "react-icons/tb";
 import { TbBrandGithub } from "react-icons/tb";
 import { LiaHackerrank } from "react-icons/lia";
 import { FaMedium } from "react-icons/fa6";
+import { Tooltip } from '@mui/material';
 
 const Intro = () => {
   return (
@@ -40,16 +41,16 @@ const Intro = () => {
         {/* skill icons */}
         <div className='h-full w-5/6 max-w-[850px] flex '>
           <div className="h-full w-1/3 flex flex-col p-5 relative justify-center">
-            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=js,ts,python,cpp&theme=light" alt="" />
-            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=html,css,sass,redux" alt="" />
+            <Tooltip title="JavaScript TypeScript Python C++" arrow placement='top'><img className='p-3 max-h-[72px] hover:scale-105 duration-200' src="https://skillicons.dev/icons?i=js,ts,python,cpp&theme=light" alt="" /></Tooltip>
+            <Tooltip title="" arrow ><img className='p-3 max-h-[72px] hover:scale-105 duration-200' src="https://skillicons.dev/icons?i=html,css,sass,redux" alt="" /></Tooltip>
           </div>
           <div className="h-full w-1/3 flex flex-col p-5 relative justify-center">
-            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs" alt="" />
-            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=git,gitlab,bitbucket,postman&theme=light" alt="" />
+            <Tooltip title="" arrow ><img className='p-3 max-h-[72px] hover:scale-105 duration-200' src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs" alt="" /></Tooltip>
+            <Tooltip title="" arrow ><img className='p-3 max-h-[72px] hover:scale-105 duration-200' src="https://skillicons.dev/icons?i=git,gitlab,bitbucket,postman&theme=light" alt="" /></Tooltip>
           </div>
           <div className="h-full w-1/3 flex flex-col p-5 relative justify-center">
-            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=materialui,tailwind,bootstrap,d3" alt="" />
-            <img className='p-3 max-h-[72px] hover:scale-105 duration-150' src="https://skillicons.dev/icons?i=mysql,sqlite,postgres,aws" alt="" />
+            <Tooltip title="" arrow ><img className='p-3 max-h-[72px] hover:scale-105 duration-200' src="https://skillicons.dev/icons?i=materialui,tailwind,bootstrap,d3" alt="" /></Tooltip>
+            <Tooltip title="" arrow ><img className='p-3 max-h-[72px] hover:scale-105 duration-200' src="https://skillicons.dev/icons?i=mysql,sqlite,postgres,aws" alt="" /></Tooltip>
           </div>
         </div>
       </div>

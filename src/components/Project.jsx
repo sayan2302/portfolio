@@ -1,8 +1,8 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
-import ImgSplitwise from '../assets/splitwise.png'
-import Carbuddy from '../assets/carbuddy.png'
+import ImgSplitwise from '../assets/project/splitwise/splitwise.png'
+import Carbuddy from '../assets/project/carbuddy/carbuddy.png'
 
 const Project = () => {
 
