@@ -33,7 +33,7 @@ const Project = () => {
             {/* Project */}
             {Object.keys(projects).map((project, key) => {
                 return (
-                    <div className={`flex  min-w-full h-[400px] mb-28 hover:bg-gray-50 justify-center rounded-xl duration-150  ${key%2?"flex-row-reverse ":"flex-row"}`}>
+                    <div key={key} className={`flex  min-w-full h-[400px] mb-28  opacity-90 hover:opacity-100 justify-center rounded-xl duration-150  ${key%2?"flex-row-reverse ":"flex-row"}`}>
                         {/* Project Image */}
                         <div className={`w-7/12 p-2 flex ${key%2?"justify-start":"justify-end"}`}>
                             <img src={projects[project].img} className='rounded-xl h-full object-contain shadow-lg' alt="" />

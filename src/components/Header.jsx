@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className='flex items-center justify-between w-full h-14 pt-0.5 pl-1.5 fixed top-0 bg-white shadow-md select-none z-50'>
             <div>
-                <Tooltip title="download resume" arrow placement='right'>
+                <Tooltip title="download resume" arrow placement='bottom' followCursor>
                     <a href={resume} download="Sayan's Resume">
                         <div className='flex group'>
                             <CgMonday className='text-5xl pb-1 cursor-default' />
